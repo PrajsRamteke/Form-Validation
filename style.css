@@ -1,0 +1,140 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;400;700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f0f0f0;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+}
+.image {
+  height: 100%;
+  width: 70%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  padding: 80px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: start;
+  color: #4c3e79;
+  padding-bottom: 20px;
+}
+
+label {
+  margin: 8px 10px 10px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nameArea,
+.numberArea,
+.mainContainer,
+.passwords {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+input[type="submit"],
+input[type="reset"] {
+  padding: 12px 28px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+input[type="reset"] {
+  border: 2px solid #4c3e79;
+  background: white;
+  color: #4c3e79;
+  font-weight: 600;
+}
+input[type="submit"] {
+  background: #4c3e79;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"] {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 1px 1px 20px -3px #a9a9a926;
+  color: #999999;
+}
+#textarea {
+  height: 80px;
+  margin-bottom: 20px;
+}
+.passwords {
+  margin-bottom: 10px;
+}
+#firstName,
+#lastName {
+  width: 280px;
+}
+#passBox,
+#confPassBox,
+#numBox,
+#mailBox {
+  width: 375px;
+}
+/* -------------------------- */
+
+#passBox #password {
+  position: relative;
+}
+#passBox #eye {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  right: 490px;
+  bottom: 172px;
+  z-index: 1;
+}
+#confpassword {
+  position: relative;
+}
+#confPassBox #eye2 {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  right: 70px;
+  bottom: 172px;
+  z-index: 1;
+}
+/* ---------------------------- */
+#alert {
+  color: #ff0000;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#success {
+  color: #008000;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10px;
+}
